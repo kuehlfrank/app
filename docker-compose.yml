@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   postgres:
@@ -7,9 +7,11 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
-      POSTGRES_DB: keycloak
-      POSTGRES_USER: keycloak
+      POSTGRES_DB: kuehlfrank
+      POSTGRES_USER: kuehlfrank
       POSTGRES_PASSWORD: VOUfsdHHdsZhGSS14PxurdT1u
+    ports:
+      - "5432:5432"
   postgres-keycloak:
     image: postgres:13
     container_name: postgres-keycloak
@@ -32,13 +34,12 @@ services:
       KEYCLOAK_USER: admin
       KEYCLOAK_PASSWORD: EeSHHk3gesLjupUaoVoyGbr7T
     ports:
-      - 8080:8080
+      - 8095:8080
     depends_on:
       - postgres-keycloak
 
 volumes:
-    postgres_data:
-      driver: local
-    postgres_keycloak_data:
-      driver: local
-          
+  postgres_data:
+    driver: local
+  postgres_keycloak_data:
+    driver: local
