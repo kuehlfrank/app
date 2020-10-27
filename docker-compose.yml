@@ -15,6 +15,18 @@ services:
     ports:
       - "5432:5432"
 
+  backend:
+    container_name: backend
+    image: ghcr.io/kuehlfrank/backend:latest
+    container_name: kuehlfrank-backend
+    environment:
+      - spring_profiles_active: 'dev'
+      - spring_datasource_url: 'jdbc:postgresql://postgres:5432/kuehlfrank' # url / database
+      - spring_datasource_username: 'kuehlfrank'
+      - spring_datasource_password: 'VOUfsdHHdsZhGSS14PxurdT1u'
+    ports:
+      - "8080:8080"
+
 volumes:
   postgres_data:
     driver: local
