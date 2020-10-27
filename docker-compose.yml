@@ -12,34 +12,7 @@ services:
       POSTGRES_PASSWORD: VOUfsdHHdsZhGSS14PxurdT1u
     ports:
       - "5432:5432"
-  postgres-keycloak:
-    image: postgres:13
-    container_name: postgres-keycloak
-    volumes:
-      - postgres_keycloak_data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_DB: keycloak
-      POSTGRES_USER: keycloak
-      POSTGRES_PASSWORD: dRhEd1inMmjo3zOk5ok5NYNe0
-  keycloak:
-    image: quay.io/keycloak/keycloak:latest
-    container_name: keycloak
-    environment:
-      DB_VENDOR: POSTGRES
-      DB_ADDR: postgres-keycloak
-      DB_DATABASE: keycloak
-      DB_USER: keycloak
-      DB_SCHEMA: public
-      DB_PASSWORD: dRhEd1inMmjo3zOk5ok5NYNe0
-      KEYCLOAK_USER: admin
-      KEYCLOAK_PASSWORD: EeSHHk3gesLjupUaoVoyGbr7T
-    ports:
-      - 8095:8080
-    depends_on:
-      - postgres-keycloak
 
 volumes:
   postgres_data:
-    driver: local
-  postgres_keycloak_data:
     driver: local
