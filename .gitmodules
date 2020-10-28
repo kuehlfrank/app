@@ -6,3 +6,7 @@
 	path = backend
 	url = git@github.com:kuehlfrank/backend.git
         branch = main
+[submodule "database"]
+	path = database
+	url = git@github.com:kuehlfrank/database.git
+	branch = main
