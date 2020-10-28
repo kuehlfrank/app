@@ -1,13 +1,11 @@
 version: "3"
 
 services:
-  postgres:
-    container_name: postgres
-    image: postgres:13
+  database:
+    container_name: database
+    image: ghcr.io/kuehlfrank/database:latest
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./backend/src/main/resources/scripts/schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
-      - ./backend/src/main/resources/scripts/testdata.sql:/docker-entrypoint-initdb.d/2-testdata.sql
     environment:
       POSTGRES_DB: kuehlfrank
       POSTGRES_USER: kuehlfrank
@@ -22,13 +20,13 @@ services:
       context: ./backend
     environment:
       - spring_profiles_active=dev
-      - spring_datasource_url=jdbc:postgresql://postgres:5432/kuehlfrank # url / database
+      - spring_datasource_url=jdbc:postgresql://database:5432/kuehlfrank # url / database
       - spring_datasource_username=kuehlfrank
       - spring_datasource_password=VOUfsdHHdsZhGSS14PxurdT1u
     ports:
       - "8081:8080"
     depends_on:
-      - postgres
+      - database
 
   frontend:
     container_name: frontend
