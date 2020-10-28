@@ -4,6 +4,8 @@ services:
   database:
     container_name: database
     image: ghcr.io/kuehlfrank/database:latest
+    build:
+      context: ./database
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
