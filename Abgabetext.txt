@@ -1,0 +1,39 @@
+Abgabe-Link:
+
+Der Quellcode für dieses Projekt ist in GitHub zugänglich unter: https://github.com/kuehlfrank.
+Die aktuellste Version des Codes findet man unter: https://github.com/ScholliYT/inez/releases/tag/abgabe.
+
+
+
+
+
+
+
+
+Anmerkungen:
+Diese Lösung ist in Zusammenarbeit mit Alexander Korn, Nico Kranz, Lars Kecker, Linus Ricker und mir entstanden
+
+Kühlfrank wurde als Webanwendung implementiert, um das Projekt Plattformunabhängig nutzen zu können.
+Im Frontend verwendeten wir HTML5, CSS sowie JavaScript während im Backend auf das Spring Framework in Java zurückgegriffen wurde.
+
+Wichtig ist uns, dass das Projekt Kühlfrank in nahezu jedem Browser ausführbar ist. Deshalb entschieden wir uns für HTML5 in Kombination mit CSS zur verschönerten Darstellung.
+Java Script wurde benutzt um die Funktion des Barcode-Scanners zu ergänzen und so die Anwenderfreundlichkeit zu gewährleisten.
+
+Im Backend setzten wir Java in Kombination mit dem Spring Framework ein, um unsere Kenntnisee mit Spring zu vertiefen.
+
+
+Kurzer Abriss des Codes:
+Readmes sind evtl. interessant
+Readme zum Starten aller Container: https://github.com/ScholliYT/zf-optimize/blob/master/README.md
+
+Seiten der https://github.com/ScholliYT/zf-optimize/tree/master/webapp/Pages
+Models: https://github.com/ScholliYT/zf-optimize/tree/develop/webapp/Data/Entities
+Frontend Guide: https://github.com/ScholliYT/zf-optimize/wiki/Frontend
+
+
+Verbesserungsvorschläge:
+Offenbar sind unsere Anfragen an den Teilnehmersupport im Datenstrom untergegangen. Für folgende Competitions würde schnellere Rückmeldung das Coden vereinfachen.
+Ansonsten vielen Dank für die Competition.
+
+Vorschlag für folgende Competitions:
+TODO @Tom Stein
