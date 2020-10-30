@@ -36,4 +36,4 @@ Offenbar sind unsere Anfragen an den Teilnehmersupport im Datenstrom untergegang
 Ansonsten vielen Dank für die Competition.
 
 Vorschlag für folgende Competitions:
-TODO @Tom Stein
+Es wäre cool, wenn es mal eine Competition zum Thema "Cloud native" (Serverless Functions, Microservices, Event Queues usw.) geben würde. Vielleicht ja sogar mit gesponsorten Credits für Cloud-provider? Sonst gibts ja auch einige open-souce Möglichkeiten in diesem Rahmen.
