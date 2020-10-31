@@ -1,7 +1,7 @@
 # Links
 Webversion der Anwendung: https://kuehlfrank.de/  
 Der Quellcode für dieses Projekt zugänglich unter: https://github.com/kuehlfrank  
-Die für den Wettbewerb relevante Verion des Codes findet man unter: **TODO: TAG EINFÜGEN**
+Die für den Wettbewerb relevante Verion des Codes findet man unter: https://github.com/kuehlfrank/app/releases/tag/v1
 
 ## Anmerkungen:
 Diese Lösung ist in Zusammenarbeit mit Alexander Korn, Nico Kranz, Lars Kecker, Linus Ricker und mir (Tom Stein) entstanden
