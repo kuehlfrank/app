@@ -17,7 +17,8 @@ Passwort: `XXXXXXXXXXXXXXXX`
 
 # Technische Übersicht
 Kühlfrank wurde als Webanwendung implementiert, um das Projekt Plattformunabhängig nutzen zu können.
-Im Frontend verwendeten wir React mit Typescript während im Backend auf das Spring Framework in Java zurückgegriffen wurde. Unsere Postgres Datenbank wird mit hilfe von python (und rust) scripts befüllt. 
+Im Frontend verwendeten wir React mit Typescript während im Backend auf das Spring Framework in Java zurückgegriffen wurde. Unsere Postgres Datenbank wird mit hilfe von python (und rust) scripts befüllt.
+Die Rezepte in der Datenbank wurden von der REWE- und EDEKA-Homepage übernommen.
 
 Wichtig ist uns, dass das Projekt Kühlfrank in nahezu jedem Browser (insbesondere Mobile) ausführbar ist, weswegen wir u.a. css frameworks wie bootstrap verwendet haben. Durch die verwendung von React und damit Node.js war es uns sehr einfach möglich einen bereits halbwegs funktionierenden Barcode-Scanner zu implementieren.
 
