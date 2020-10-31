@@ -19,7 +19,7 @@ docker-compose up -d
 ```
 Optionally specify `--parallel` after `docker-compose build` for faster builds.
 
-### Remakrs
+### Remarks
 Changing the port of the `backend` container is currently not possible because the value is hard coded into `.env.docker` in the frontend.
 
 ## Submodules
