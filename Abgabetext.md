@@ -10,7 +10,6 @@ Diese Lösung ist in Zusammenarbeit mit Alexander Korn, Nico Kranz, Lars Kecker,
 Kühlfrank ist eine praktische Webanwendung um Empfehlungen zur Verwendung seiner Lebensmittel in Form von Rezeptvorschlägen zu erhalten. Die verwendung erfordert das erstellen eines Benutzerkontos (wir stellen weiter unter aber auch schon ein vorgefertigtes Benutzerkonto bereit). Als ersten Schritt muss der Nutzer seine vorhanden Lebensmittel erfassen. Dies geschieht entweder über die manuelle Eingabe oder die Barcode-Scanner funktion. Nach erfolgreicher Erfassung einiger Lebensmittel können die ersten Rezeptvorschläge eingesehen werden. Entscheidet der Benutzer sich eines der Rezepte zu kochen erfolgt automatisch eine Anpassung der Lagerbestände entsprechend der gewählten Portionsgröße.
 
 ## Test-Konto
-**TODO: KONTO ANLEGEN**
 Hier sind die Zugangsdaten für den oben erwähnten Test Account:  
 E-Mail: `kuehlfrank@tomstein.me`  
 Passwort: `XXXXXXXXXXXXXXXX`
